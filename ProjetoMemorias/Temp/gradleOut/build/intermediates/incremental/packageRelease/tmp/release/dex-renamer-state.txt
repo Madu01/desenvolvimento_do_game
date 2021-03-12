@@ -1,4 +1,0 @@
-#Thu Mar 11 20:20:45 BRT 2021
-base.0=C\:\\1-JOSE-CARLOS\\UnB\\Segundo Semestre\\Desenvolvimento de Software\\Unity\\Teste\\ProjetoMemorias\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex
