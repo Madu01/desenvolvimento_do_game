@@ -10,7 +10,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -577,4 +576,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/tela_menu.unity
   - Assets/Scenes/tela_creditos.unity
   - Assets/Scenes/dialogo_1.unity
-  playerPath: C:/1-JOSE-CARLOS/UnB/Segundo Semestre/Desenvolvimento de Software/Unity/Teste/ProjetoMemorias/JogoMemorias.apk
+  playerPath: C:/1-JOSE-CARLOS/UnB/Segundo Semestre/Desenvolvimento de Software/Unity/Teste/ProjetoMemorias/JogoMemorias_v01-alpha.apk
