@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/dialogo_1.unity
     guid: c1e7cbaceac59cf48909ece473f7a6bf
+  - enabled: 1
+    path: Assets/Scenes/dialogo_2.unity
+    guid: dc8eff2c6a31a8f49b7336dcc875b891
   m_configObjects: {}
