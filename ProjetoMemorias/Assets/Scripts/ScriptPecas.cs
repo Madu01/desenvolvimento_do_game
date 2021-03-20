@@ -1,0 +1,26 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ScriptPecas : MonoBehaviour{
+    //Esse Script tem como objetivo randomizar a posição das peças e depois verificar se o usuário as colocou na posição correta
+
+    //Variáveis
+    private Vector3 PosicaoCerta; //Esse vetor privado irá armazenar a posição certa das peças do puzzle
+    public bool EstaNaPosicaoCerta; //Está na Posição Certa? Sim ou Não (True or False, respectivamente)
+    public bool Selecionada;
+
+    void Start(){ //Esse procedimento "Start" será executado 1x quando o Script for chamado
+        PosicaoCerta = transform.position; //Vai alterar a posição das peças de acordo com as coordenadas dadas
+        transform.position = new Vector3(Random.Range(1300f,2200f), Random.Range(200, 1250)); //Aqui a posição "transform.position" receberá o "Vector3" com coordenadas aleatórias dentro do espaço dado, sendo o primeiro "Random.Range" referente ao eixo X e o segundo "Random.Range" referente ao eixo Y
+    }
+
+    void Update(){
+        if(Vector3.Distance(transform.position, PosicaoCerta) < 100){ //se a posição onde o usuário colocou a peça está a menos de "0.5" (escala arbitrária) de distância da posição certa da peça...
+            if(!Selecionada){ //Se não houver nenhuma peça selecionada...
+                transform.position = PosicaoCerta; //O jogo colocará a peça automáticamente na posição correta
+                EstaNaPosicaoCerta = true; //E armazenará na variável "EstaNaPosicaoCerta" o "TRUE"
+            }
+        }
+    }
+}

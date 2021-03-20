@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 30301016}
   - component: {fileID: 30301020}
   - component: {fileID: 30301019}
+  - component: {fileID: 30301021}
   m_Layer: 0
   m_Name: peca (6)
   m_TagString: Puzzle
@@ -246,13 +247,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30301015}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 2174.3, y: 1078.6, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -45.1351, y: 100.13785, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 891586518}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!61 &30301019
 BoxCollider2D:
@@ -291,6 +292,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &30301021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30301015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &32801014
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,6 +399,7 @@ GameObject:
   - component: {fileID: 52221262}
   - component: {fileID: 52221266}
   - component: {fileID: 52221265}
+  - component: {fileID: 52221267}
   m_Layer: 0
   m_Name: peca (0)
   m_TagString: Puzzle
@@ -497,13 +513,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52221261}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 994.78, y: 1283.9, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -363.92432, y: 155.62434, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 970227349}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &52221265
 BoxCollider2D:
@@ -542,6 +558,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &52221267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52221261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &151910389
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +585,7 @@ GameObject:
   - component: {fileID: 151910390}
   - component: {fileID: 151910394}
   - component: {fileID: 151910393}
+  - component: {fileID: 151910395}
   m_Layer: 0
   m_Name: peca (28)
   m_TagString: Puzzle
@@ -668,13 +699,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151910389}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1701.2, y: 1080.8, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -173, y: 100.73246, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 677838599}
-  m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &151910393
 BoxCollider2D:
@@ -713,6 +744,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &151910395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151910389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &161881541
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +771,7 @@ GameObject:
   - component: {fileID: 161881542}
   - component: {fileID: 161881546}
   - component: {fileID: 161881545}
+  - component: {fileID: 161881547}
   m_Layer: 0
   m_Name: peca (22)
   m_TagString: Puzzle
@@ -839,13 +885,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161881541}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1230, y: 602.74, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -300.35135, y: -28.47297, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 1649227505}
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &161881545
 BoxCollider2D:
@@ -884,6 +930,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &161881547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161881541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &184171015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,6 +1117,7 @@ GameObject:
   - component: {fileID: 359984177}
   - component: {fileID: 359984181}
   - component: {fileID: 359984180}
+  - component: {fileID: 359984182}
   m_Layer: 0
   m_Name: peca (27)
   m_TagString: Puzzle
@@ -1170,13 +1231,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359984176}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1466, y: 363.73, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -236.56757, y: -93.070274, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 451392498}
-  m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &359984180
 BoxCollider2D:
@@ -1215,6 +1276,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &359984182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359984176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &401560952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1308,6 +1383,7 @@ GameObject:
   - component: {fileID: 406792821}
   - component: {fileID: 406792825}
   - component: {fileID: 406792824}
+  - component: {fileID: 406792826}
   m_Layer: 0
   m_Name: peca (20)
   m_TagString: Puzzle
@@ -1421,13 +1497,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406792820}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1231, y: 1080.8, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -300.0811, y: 100.73246, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 597108735}
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &406792824
 BoxCollider2D:
@@ -1466,6 +1542,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &406792826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406792820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &411852878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,6 +1649,7 @@ GameObject:
   - component: {fileID: 429311160}
   - component: {fileID: 429311164}
   - component: {fileID: 429311163}
+  - component: {fileID: 429311165}
   m_Layer: 0
   m_Name: peca (32)
   m_TagString: Puzzle
@@ -1672,13 +1763,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429311159}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1937.2, y: 1080.8, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -109.21621, y: 100.73246, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 829985160}
-  m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &429311163
 BoxCollider2D:
@@ -1717,6 +1808,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &429311165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429311159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &445609443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1835,7 @@ GameObject:
   - component: {fileID: 445609444}
   - component: {fileID: 445609448}
   - component: {fileID: 445609447}
+  - component: {fileID: 445609449}
   m_Layer: 0
   m_Name: peca (13)
   m_TagString: Puzzle
@@ -1843,13 +1949,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445609443}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1230, y: 158.98, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -300.35135, y: -148.40811, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 401560953}
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &445609447
 BoxCollider2D:
@@ -1888,6 +1994,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &445609449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445609443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &446250182
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,6 +2021,7 @@ GameObject:
   - component: {fileID: 446250183}
   - component: {fileID: 446250187}
   - component: {fileID: 446250186}
+  - component: {fileID: 446250188}
   m_Layer: 0
   m_Name: peca (8)
   m_TagString: Puzzle
@@ -2014,13 +2135,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 446250182}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 2174.3, y: 601.73, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -45.1351, y: -28.745943, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 717741751}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!61 &446250186
 BoxCollider2D:
@@ -2059,6 +2180,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &446250188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446250182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &451392497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2152,6 +2287,7 @@ GameObject:
   - component: {fileID: 458336027}
   - component: {fileID: 458336031}
   - component: {fileID: 458336030}
+  - component: {fileID: 458336032}
   m_Layer: 0
   m_Name: peca (3)
   m_TagString: Puzzle
@@ -2265,13 +2401,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 458336026}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1701.4, y: 1319.7, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -172.94592, y: 165.3, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 2023345629}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &458336030
 BoxCollider2D:
@@ -2310,6 +2446,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &458336032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458336026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &463635849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2403,6 +2553,7 @@ GameObject:
   - component: {fileID: 492129747}
   - component: {fileID: 492129751}
   - component: {fileID: 492129750}
+  - component: {fileID: 492129752}
   m_Layer: 0
   m_Name: peca (7)
   m_TagString: Puzzle
@@ -2516,13 +2667,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 492129746}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 2138.8, y: 839.82, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: -54.729694, y: 35.6027, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 1301453778}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!61 &492129750
 BoxCollider2D:
@@ -2561,6 +2712,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &492129752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492129746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &496432116
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,6 +2885,7 @@ GameObject:
   - component: {fileID: 524979373}
   - component: {fileID: 524979377}
   - component: {fileID: 524979376}
+  - component: {fileID: 524979378}
   m_Layer: 0
   m_Name: peca (25)
   m_TagString: Puzzle
@@ -2833,13 +2999,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524979372}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1465.1, y: 841.83, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -236.8108, y: 36.145947, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 2102785947}
-  m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &524979376
 BoxCollider2D:
@@ -2878,6 +3044,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &524979378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524979372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &558526657
 GameObject:
   m_ObjectHideFlags: 0
@@ -2891,6 +3071,7 @@ GameObject:
   - component: {fileID: 558526658}
   - component: {fileID: 558526662}
   - component: {fileID: 558526661}
+  - component: {fileID: 558526663}
   m_Layer: 0
   m_Name: peca (11)
   m_TagString: Puzzle
@@ -3004,13 +3185,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 558526657}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1029.1, y: 125.09, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -354.64865, y: -157.56758, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 1223705060}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &558526661
 BoxCollider2D:
@@ -3049,6 +3230,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &558526663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558526657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &578892139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3062,6 +3257,7 @@ GameObject:
   - component: {fileID: 578892140}
   - component: {fileID: 578892144}
   - component: {fileID: 578892143}
+  - component: {fileID: 578892145}
   m_Layer: 0
   m_Name: peca (33)
   m_TagString: Puzzle
@@ -3175,13 +3371,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578892139}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1937.2, y: 841.83, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -109.21621, y: 36.145947, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 496432117}
-  m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &578892143
 BoxCollider2D:
@@ -3220,6 +3416,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &578892145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578892139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &585673111
 GameObject:
   m_ObjectHideFlags: 0
@@ -3233,6 +3443,7 @@ GameObject:
   - component: {fileID: 585673112}
   - component: {fileID: 585673116}
   - component: {fileID: 585673115}
+  - component: {fileID: 585673117}
   m_Layer: 0
   m_Name: peca (9)
   m_TagString: Puzzle
@@ -3346,13 +3557,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 585673111}
-  m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
-  m_LocalPosition: {x: 2139.1, y: 363.03, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -1, w: 0}
+  m_LocalPosition: {x: -54.6486, y: -93.25947, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 2015660560}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
 --- !u!61 &585673115
 BoxCollider2D:
@@ -3391,6 +3602,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &585673117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585673111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &597108734
 GameObject:
   m_ObjectHideFlags: 0
@@ -3964,6 +4189,7 @@ GameObject:
   - component: {fileID: 854180327}
   - component: {fileID: 854180331}
   - component: {fileID: 854180330}
+  - component: {fileID: 854180332}
   m_Layer: 0
   m_Name: peca (16)
   m_TagString: Puzzle
@@ -4077,13 +4303,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854180326}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 994.09, y: 362.22, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -364.1108, y: -93.478386, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 1838306341}
-  m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &854180330
 BoxCollider2D:
@@ -4122,6 +4348,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &854180332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854180326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &890136842
 GameObject:
   m_ObjectHideFlags: 0
@@ -4295,6 +4535,7 @@ GameObject:
   - component: {fileID: 915050620}
   - component: {fileID: 915050624}
   - component: {fileID: 915050623}
+  - component: {fileID: 915050625}
   m_Layer: 0
   m_Name: peca (12)
   m_TagString: Puzzle
@@ -4408,13 +4649,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 915050619}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 1938.2, y: 123.58, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: -108.945946, y: -157.9757, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 184171016}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!61 &915050623
 BoxCollider2D:
@@ -4453,6 +4694,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &915050625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915050619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &970227348
 GameObject:
   m_ObjectHideFlags: 0
@@ -4546,6 +4801,7 @@ GameObject:
   - component: {fileID: 1020691039}
   - component: {fileID: 1020691043}
   - component: {fileID: 1020691042}
+  - component: {fileID: 1020691044}
   m_Layer: 0
   m_Name: peca (17)
   m_TagString: Puzzle
@@ -4659,13 +4915,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020691038}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1028.8, y: 601.68, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -354.7297, y: -28.75947, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 1689114250}
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1020691042
 BoxCollider2D:
@@ -4704,6 +4960,50 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1020691044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020691038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
+--- !u!1 &1044383299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1044383300}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1044383300
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044383299}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1889, y: 165, z: -6578.914}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1087395297
 GameObject:
   m_ObjectHideFlags: 0
@@ -4717,6 +5017,7 @@ GameObject:
   - component: {fileID: 1087395298}
   - component: {fileID: 1087395302}
   - component: {fileID: 1087395301}
+  - component: {fileID: 1087395303}
   m_Layer: 0
   m_Name: peca (34)
   m_TagString: Puzzle
@@ -4830,13 +5131,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1087395297}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1938.2, y: 602.74, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -108.945946, y: -28.47297, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 1168977040}
-  m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1087395301
 BoxCollider2D:
@@ -4875,6 +5176,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1087395303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087395297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1089063289
 GameObject:
   m_ObjectHideFlags: 0
@@ -4888,6 +5203,7 @@ GameObject:
   - component: {fileID: 1089063290}
   - component: {fileID: 1089063294}
   - component: {fileID: 1089063293}
+  - component: {fileID: 1089063295}
   m_Layer: 0
   m_Name: peca (29)
   m_TagString: Puzzle
@@ -5001,13 +5317,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089063289}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1701.2, y: 841.83, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -173, y: 36.145947, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 1474513279}
-  m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1089063293
 BoxCollider2D:
@@ -5046,6 +5362,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1089063295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089063289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1168977039
 GameObject:
   m_ObjectHideFlags: 0
@@ -5219,6 +5549,7 @@ GameObject:
   - component: {fileID: 1231976963}
   - component: {fileID: 1231976967}
   - component: {fileID: 1231976966}
+  - component: {fileID: 1231976968}
   m_Layer: 0
   m_Name: peca (10)
   m_TagString: Puzzle
@@ -5332,13 +5663,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231976962}
-  m_LocalRotation: {x: 0, y: 0, z: -1, w: 0}
-  m_LocalPosition: {x: 2172.8, y: 158.84, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -1, w: 0}
+  m_LocalPosition: {x: -45.540504, y: -148.44595, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 1527050527}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
 --- !u!61 &1231976966
 BoxCollider2D:
@@ -5377,6 +5708,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1231976968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231976962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1263046822
 GameObject:
   m_ObjectHideFlags: 0
@@ -5390,6 +5735,7 @@ GameObject:
   - component: {fileID: 1263046823}
   - component: {fileID: 1263046827}
   - component: {fileID: 1263046826}
+  - component: {fileID: 1263046828}
   m_Layer: 0
   m_Name: peca (31)
   m_TagString: Puzzle
@@ -5503,13 +5849,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263046822}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1700.1, y: 363.73, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -173.29729, y: -93.070274, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 1744700331}
-  m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1263046826
 BoxCollider2D:
@@ -5548,6 +5894,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1263046828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263046822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1274145820
 GameObject:
   m_ObjectHideFlags: 0
@@ -5561,6 +5921,7 @@ GameObject:
   - component: {fileID: 1274145821}
   - component: {fileID: 1274145825}
   - component: {fileID: 1274145824}
+  - component: {fileID: 1274145826}
   m_Layer: 0
   m_Name: peca (4)
   m_TagString: Puzzle
@@ -5674,13 +6035,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274145820}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1937.7, y: 1283.3, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -109.08108, y: 155.46219, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 200620771}
-  m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!61 &1274145824
 BoxCollider2D:
@@ -5719,6 +6080,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1274145826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274145820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1301453777
 GameObject:
   m_ObjectHideFlags: 0
@@ -5892,6 +6267,7 @@ GameObject:
   - component: {fileID: 1474946887}
   - component: {fileID: 1474946891}
   - component: {fileID: 1474946890}
+  - component: {fileID: 1474946892}
   m_Layer: 0
   m_Name: peca (23)
   m_TagString: Puzzle
@@ -6005,13 +6381,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474946886}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1230, y: 363.73, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -300.35135, y: -93.070274, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 890136843}
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1474946890
 BoxCollider2D:
@@ -6050,6 +6426,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1474946892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474946886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1476367587
 GameObject:
   m_ObjectHideFlags: 0
@@ -6063,6 +6453,7 @@ GameObject:
   - component: {fileID: 1476367588}
   - component: {fileID: 1476367592}
   - component: {fileID: 1476367591}
+  - component: {fileID: 1476367593}
   m_Layer: 0
   m_Name: peca (2)
   m_TagString: Puzzle
@@ -6176,13 +6567,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1476367587}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1465.3, y: 1283.3, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -236.75673, y: 155.46219, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 821031098}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!61 &1476367591
 BoxCollider2D:
@@ -6221,6 +6612,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1476367593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476367587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1483528105
 GameObject:
   m_ObjectHideFlags: 0
@@ -6234,6 +6639,7 @@ GameObject:
   - component: {fileID: 1483528106}
   - component: {fileID: 1483528110}
   - component: {fileID: 1483528109}
+  - component: {fileID: 1483528111}
   m_Layer: 0
   m_Name: peca (19)
   m_TagString: Puzzle
@@ -6347,13 +6753,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483528105}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1028.8, y: 1080.6, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -354.7297, y: 100.67839, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 1711501613}
-  m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1483528109
 BoxCollider2D:
@@ -6392,6 +6798,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1483528111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483528105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1527050526
 GameObject:
   m_ObjectHideFlags: 0
@@ -6565,6 +6985,7 @@ GameObject:
   - component: {fileID: 1587567367}
   - component: {fileID: 1587567371}
   - component: {fileID: 1587567370}
+  - component: {fileID: 1587567372}
   m_Layer: 0
   m_Name: peca (24)
   m_TagString: Puzzle
@@ -6678,13 +7099,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587567366}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1465.1, y: 1080.8, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -236.8108, y: 100.73246, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 1749607295}
-  m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1587567370
 BoxCollider2D:
@@ -6723,6 +7144,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1587567372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587567366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1611661830
 GameObject:
   m_ObjectHideFlags: 0
@@ -6736,6 +7171,7 @@ GameObject:
   - component: {fileID: 1611661831}
   - component: {fileID: 1611661835}
   - component: {fileID: 1611661834}
+  - component: {fileID: 1611661836}
   m_Layer: 0
   m_Name: peca (30)
   m_TagString: Puzzle
@@ -6849,13 +7285,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611661830}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1700.1, y: 602.74, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -173.29729, y: -28.47297, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 1743312319}
-  m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1611661834
 BoxCollider2D:
@@ -6894,6 +7330,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1611661836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611661830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1649227504
 GameObject:
   m_ObjectHideFlags: 0
@@ -6987,6 +7437,7 @@ GameObject:
   - component: {fileID: 1688811877}
   - component: {fileID: 1688811881}
   - component: {fileID: 1688811880}
+  - component: {fileID: 1688811882}
   m_Layer: 0
   m_Name: peca (21)
   m_TagString: Puzzle
@@ -7100,13 +7551,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688811876}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1231, y: 841.83, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -300.0811, y: 36.145947, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 1852316774}
-  m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1688811880
 BoxCollider2D:
@@ -7145,6 +7596,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1688811882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688811876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1689114249
 GameObject:
   m_ObjectHideFlags: 0
@@ -7638,6 +8103,7 @@ GameObject:
   - component: {fileID: 1784795954}
   - component: {fileID: 1784795958}
   - component: {fileID: 1784795957}
+  - component: {fileID: 1784795959}
   m_Layer: 0
   m_Name: peca (18)
   m_TagString: Puzzle
@@ -7751,13 +8217,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1784795953}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 993.89, y: 840.73, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -364.16486, y: 35.848656, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 1740198031}
-  m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1784795957
 BoxCollider2D:
@@ -7796,6 +8262,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1784795959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784795953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1801077881
 GameObject:
   m_ObjectHideFlags: 0
@@ -7809,6 +8289,7 @@ GameObject:
   - component: {fileID: 1801077882}
   - component: {fileID: 1801077886}
   - component: {fileID: 1801077885}
+  - component: {fileID: 1801077887}
   m_Layer: 0
   m_Name: peca (1)
   m_TagString: Puzzle
@@ -7922,13 +8403,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801077881}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1230.2, y: 1319.7, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -300.2973, y: 165.3, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 463635850}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1801077885
 BoxCollider2D:
@@ -7967,6 +8448,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1801077887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801077881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1838306340
 GameObject:
   m_ObjectHideFlags: 0
@@ -8140,6 +8635,7 @@ GameObject:
   - component: {fileID: 1894210509}
   - component: {fileID: 1894210513}
   - component: {fileID: 1894210512}
+  - component: {fileID: 1894210514}
   m_Layer: 0
   m_Name: peca (35)
   m_TagString: Puzzle
@@ -8253,13 +8749,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894210508}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1938.2, y: 363.73, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -108.945946, y: -93.070274, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 1568578845}
-  m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1894210512
 BoxCollider2D:
@@ -8298,6 +8794,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1894210514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894210508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1955431355
 GameObject:
   m_ObjectHideFlags: 0
@@ -8311,6 +8821,7 @@ GameObject:
   - component: {fileID: 1955431356}
   - component: {fileID: 1955431360}
   - component: {fileID: 1955431359}
+  - component: {fileID: 1955431361}
   m_Layer: 0
   m_Name: peca (26)
   m_TagString: Puzzle
@@ -8424,13 +8935,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955431355}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1466, y: 602.74, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -236.56757, y: -28.47297, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 411852879}
-  m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1955431359
 BoxCollider2D:
@@ -8469,6 +8980,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1955431361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955431355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &1974778710
 GameObject:
   m_ObjectHideFlags: 0
@@ -8521,7 +9046,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 2
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -8536,8 +9061,8 @@ Canvas:
   m_GameObject: {fileID: 1974778710}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 2004549879}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -8558,7 +9083,44 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children: []
+  m_Children:
+  - {fileID: 52221264}
+  - {fileID: 1801077884}
+  - {fileID: 1476367590}
+  - {fileID: 458336029}
+  - {fileID: 1274145823}
+  - {fileID: 2065812920}
+  - {fileID: 30301018}
+  - {fileID: 492129749}
+  - {fileID: 446250185}
+  - {fileID: 585673114}
+  - {fileID: 1231976965}
+  - {fileID: 558526660}
+  - {fileID: 915050622}
+  - {fileID: 445609446}
+  - {fileID: 2002896218}
+  - {fileID: 1982956230}
+  - {fileID: 854180329}
+  - {fileID: 1020691041}
+  - {fileID: 1784795956}
+  - {fileID: 1483528108}
+  - {fileID: 406792823}
+  - {fileID: 1688811879}
+  - {fileID: 161881544}
+  - {fileID: 1474946889}
+  - {fileID: 1587567369}
+  - {fileID: 524979375}
+  - {fileID: 1955431358}
+  - {fileID: 359984179}
+  - {fileID: 151910392}
+  - {fileID: 1089063292}
+  - {fileID: 1611661833}
+  - {fileID: 1263046825}
+  - {fileID: 429311162}
+  - {fileID: 578892142}
+  - {fileID: 1087395300}
+  - {fileID: 1894210511}
+  - {fileID: 2019583669}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8580,6 +9142,7 @@ GameObject:
   - component: {fileID: 1982956228}
   - component: {fileID: 1982956232}
   - component: {fileID: 1982956231}
+  - component: {fileID: 1982956233}
   m_Layer: 0
   m_Name: peca (15)
   m_TagString: Puzzle
@@ -8693,13 +9256,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982956227}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1702.1, y: 158.98, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -172.75674, y: -148.40811, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 744772199}
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1982956231
 BoxCollider2D:
@@ -8738,6 +9301,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1982956233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982956227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &2002896215
 GameObject:
   m_ObjectHideFlags: 0
@@ -8751,6 +9328,7 @@ GameObject:
   - component: {fileID: 2002896216}
   - component: {fileID: 2002896220}
   - component: {fileID: 2002896219}
+  - component: {fileID: 2002896221}
   m_Layer: 0
   m_Name: peca (14)
   m_TagString: Puzzle
@@ -8864,13 +9442,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2002896215}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 1466.5, y: 122.97, z: 0}
-  m_LocalScale: {x: 138.4944, y: 140.22559, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: -236.43242, y: -158.14055, z: 0}
+  m_LocalScale: {x: 37.43092, y: 37.89881, z: 37.43092}
   m_Children:
   - {fileID: 32801015}
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!61 &2002896219
 BoxCollider2D:
@@ -8909,6 +9487,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &2002896221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002896215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &2004549877
 GameObject:
   m_ObjectHideFlags: 0
@@ -8987,7 +9579,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004549877}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1478, y: 724, z: -1}
+  m_LocalPosition: {x: 1201, y: 724, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9005,7 +9597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9771213931493c84fbe404683f382233, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SelectedPiece: {fileID: 0}
+  PecaSelecionada: {fileID: 0}
 --- !u!1 &2015660559
 GameObject:
   m_ObjectHideFlags: 0
@@ -9086,6 +9678,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 1
   m_SpriteSortPoint: 0
+--- !u!1 &2019583667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2019583669}
+  - component: {fileID: 2019583668}
+  m_Layer: 0
+  m_Name: puzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &2019583668
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019583667}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -20
+  m_Sprite: {fileID: 21300000, guid: aeca684c7ce87d641a13b1fea765d32f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.79607844}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 10.24, y: 10.24}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &2019583669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019583667}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -204.70946, y: 5.070534, z: -26.701235}
+  m_LocalScale: {x: 37.6286, y: 37.6286, z: 37.6286}
+  m_Children: []
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2023345628
 GameObject:
   m_ObjectHideFlags: 0
@@ -9179,6 +9851,7 @@ GameObject:
   - component: {fileID: 2065812918}
   - component: {fileID: 2065812922}
   - component: {fileID: 2065812921}
+  - component: {fileID: 2065812923}
   m_Layer: 0
   m_Name: peca (5)
   m_TagString: Puzzle
@@ -9292,13 +9965,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065812917}
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 2139.1, y: 1316.5, z: 0}
-  m_LocalScale: {x: 140.22559, y: 138.4944, z: 138.4944}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -54.6486, y: 164.43515, z: 0}
+  m_LocalScale: {x: 37.898827, y: 37.43094, z: 37.43092}
   m_Children:
   - {fileID: 758269436}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1974778714}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!61 &2065812921
 BoxCollider2D:
@@ -9337,6 +10010,20 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &2065812923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065812917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d784be2b3d91314086920516c9a2ad1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EstaNaPosicaoCerta: 0
+  Selecionada: 0
 --- !u!1 &2102785946
 GameObject:
   m_ObjectHideFlags: 0
