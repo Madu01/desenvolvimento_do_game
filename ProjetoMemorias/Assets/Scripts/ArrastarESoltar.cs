@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class ArrastarESoltar : MonoBehaviour{
     //Breve Resumo: Esse script é responsável pela "física" das peças do puzzle e dos toques na tela (entradas), ...
@@ -8,6 +9,7 @@ public class ArrastarESoltar : MonoBehaviour{
 
     //Variáveis
     public GameObject PecaSelecionada; //Variável "Peça Selecionada"
+    int ordemLayer = 1; //Ordem que a peça aparecerá no jogo - "Layer da Peça"
 
     //Procedimentos
     void Start(){ 
@@ -21,13 +23,17 @@ public class ArrastarESoltar : MonoBehaviour{
                 if(!hit.transform.GetComponent<ScriptPecas>().EstaNaPosicaoCerta){ //Se a peça selecionada NÃO ESTÁ NA POSIÇÃO CERTA...
                     PecaSelecionada = hit.transform.gameObject; //Dando à variável "PecaSelecionada" a peça que foi selecionada ("clicada") pelo usuário (isto é, o usuário só poderá mover a peça se ela não estiver na posição certa)
                     PecaSelecionada.GetComponent<ScriptPecas>().Selecionada = true; //Retorna à variável "Selecionada" do script "ScriptPecas" que há uma peça selecionada (true);
+                    PecaSelecionada.GetComponent<SortingGroup>().sortingOrder = ordemLayer; //Trazendo a peça selecionada para o "layer mais alto" da interface, isto é, trazendo a peça para frente
+                    ordemLayer++; //Adicionando uma camada ao Layer mais alto, para que a peça mais recentemente selecionada venha sempre para o layer mais alto
                 }
                 
             }
         }
         if(Input.GetMouseButtonUp(0)){ //Quando o jogador clicar na tela...
-            PecaSelecionada.GetComponent<ScriptPecas>().Selecionada = false; //Retorna à variável "Selecionada" do script "ScriptPecas" que não há nenhuma peça selecionada (false);
-            PecaSelecionada = null; //...nenhuma peça estará "selecionada", isto é, quando o jogador "soltar o clique", a peça selecionada será "solta"
+            if(PecaSelecionada != null){ //Se houver uma peça selecionada...
+                PecaSelecionada.GetComponent<ScriptPecas>().Selecionada = false; //Retorna à variável "Selecionada" do script "ScriptPecas" que não há nenhuma peça selecionada (false);
+                PecaSelecionada = null; //...nenhuma peça estará "selecionada", isto é, quando o jogador "soltar o clique", a peça selecionada será "solta"
+            }
         }
         if(PecaSelecionada != null){ //Se há uma peça selecionada
             Vector3 MousePoint = Camera.main.ScreenToWorldPoint(Input.mousePosition); //Passando as coordenadas do mouse para o vetor "MousePoint"

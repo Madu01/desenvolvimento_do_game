@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class ScriptPecas : MonoBehaviour{
     //Esse Script tem como objetivo randomizar a posição das peças e depois verificar se o usuário as colocou na posição correta
@@ -18,8 +19,11 @@ public class ScriptPecas : MonoBehaviour{
     void Update(){
         if(Vector3.Distance(transform.position, PosicaoCerta) < 100){ //se a posição onde o usuário colocou a peça está a menos de "0.5" (escala arbitrária) de distância da posição certa da peça...
             if(!Selecionada){ //Se não houver nenhuma peça selecionada...
-                transform.position = PosicaoCerta; //O jogo colocará a peça automáticamente na posição correta
-                EstaNaPosicaoCerta = true; //E armazenará na variável "EstaNaPosicaoCerta" o "TRUE"
+                if(EstaNaPosicaoCerta == false){ //Se a peça ainda não estiver na posição certa... (isto foi colocado para evitar que as tarefas abaixo fiquem rodando a cada frame, mas somente 1x)
+                    transform.position = PosicaoCerta; //O jogo colocará a peça automáticamente na posição correta
+                    EstaNaPosicaoCerta = true; //E armazenará na variável "EstaNaPosicaoCerta" o "TRUE"
+                    GetComponent<SortingGroup>().sortingOrder = 0; //E alterará seu "layer" (sua profundidade na tela) para 0, isto é, a posição normal.
+                }
             }
         }
     }
