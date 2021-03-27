@@ -10,6 +10,7 @@ public class ScriptPecas : MonoBehaviour{
     private Vector3 PosicaoCerta; //Esse vetor privado irá armazenar a posição certa das peças do puzzle
     public bool EstaNaPosicaoCerta; //Está na Posição Certa? Sim ou Não (True or False, respectivamente)
     public bool Selecionada;
+    public static int contadorPecasCorretas = 0; //Essa variável contará o número de peças que foram colocadas no lugar correto;
 
     void Start(){ //Esse procedimento "Start" será executado 1x quando o Script for chamado
         PosicaoCerta = transform.position; //Vai alterar a posição das peças de acordo com as coordenadas dadas
@@ -22,7 +23,9 @@ public class ScriptPecas : MonoBehaviour{
                 if(EstaNaPosicaoCerta == false){ //Se a peça ainda não estiver na posição certa... (isto foi colocado para evitar que as tarefas abaixo fiquem rodando a cada frame, mas somente 1x)
                     transform.position = PosicaoCerta; //O jogo colocará a peça automáticamente na posição correta
                     EstaNaPosicaoCerta = true; //E armazenará na variável "EstaNaPosicaoCerta" o "TRUE"
+                    contadorPecasCorretas = contadorPecasCorretas + 1; //A cada peça colocada no lugar correto, o contador será incrementado em 1.
                     GetComponent<SortingGroup>().sortingOrder = 0; //E alterará seu "layer" (sua profundidade na tela) para 0, isto é, a posição normal.
+                    Debug.Log(contadorPecasCorretas);
                 }
             }
         }

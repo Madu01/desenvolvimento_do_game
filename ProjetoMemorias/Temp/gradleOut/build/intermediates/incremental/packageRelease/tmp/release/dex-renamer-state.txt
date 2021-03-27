@@ -1,0 +1,4 @@
+#Sat Mar 27 14:42:48 BRT 2021
+base.0=C\:\\Users\\jcs19\\Documents\\\#01_PastaProvisoria\\ProjetoMemorias\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

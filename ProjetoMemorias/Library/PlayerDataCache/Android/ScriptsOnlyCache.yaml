@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - ArrastarESoltar
     - LevelManager
     - ScriptPecas
+    - botaoContinuar
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -116,6 +117,43 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/dialogo_3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9660}
+    - Class: 114
+      Script: {instanceID: 10262}
+    - Class: 114
+      Script: {instanceID: 11102}
+    - Class: 114
+      Script: {instanceID: 11474}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/puzzle1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -138,16 +176,28 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9660}
     - Class: 114
+      Script: {instanceID: 9822}
+    - Class: 114
+      Script: {instanceID: 9862}
+    - Class: 114
       Script: {instanceID: 10004}
     - Class: 114
       Script: {instanceID: 10262}
+    - Class: 114
+      Script: {instanceID: 10628}
     - Class: 114
       Script: {instanceID: 10698}
     - Class: 114
       Script: {instanceID: 11102}
     - Class: 114
+      Script: {instanceID: 11216}
+    - Class: 114
       Script: {instanceID: 11474}
+    - Class: 114
+      Script: {instanceID: 26982}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -156,6 +206,8 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
@@ -690,6 +742,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a3f459660ec76f747794d62b7d072134
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: botaoContinuar
   platform: 13
   scenePathNames:
   - Assets/Scenes/tela_menu.unity
@@ -697,4 +755,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/dialogo_1.unity
   - Assets/Scenes/dialogo_2.unity
   - Assets/Scenes/puzzle1.unity
+  - Assets/Scenes/dialogo_3.unity
   playerPath: C:/Users/jcs19/Documents/#01_PastaProvisoria/ProjetoMemorias/JogoMemorias_v02_01-alpha.apk
