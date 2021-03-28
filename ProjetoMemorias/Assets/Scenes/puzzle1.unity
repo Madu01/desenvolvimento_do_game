@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 30301020}
   - component: {fileID: 30301019}
   - component: {fileID: 30301021}
+  - component: {fileID: 30301022}
   m_Layer: 0
   m_Name: peca (6)
   m_TagString: Puzzle
@@ -306,6 +307,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &30301022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30301015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &32801014
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,6 +414,7 @@ GameObject:
   - component: {fileID: 52221266}
   - component: {fileID: 52221265}
   - component: {fileID: 52221267}
+  - component: {fileID: 52221268}
   m_Layer: 0
   m_Name: peca (0)
   m_TagString: Puzzle
@@ -572,6 +587,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &52221268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52221261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 0}
 --- !u!1 &151910389
 GameObject:
   m_ObjectHideFlags: 0
@@ -586,6 +614,7 @@ GameObject:
   - component: {fileID: 151910394}
   - component: {fileID: 151910393}
   - component: {fileID: 151910395}
+  - component: {fileID: 151910396}
   m_Layer: 0
   m_Name: peca (28)
   m_TagString: Puzzle
@@ -758,6 +787,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &151910396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151910389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &161881541
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +814,7 @@ GameObject:
   - component: {fileID: 161881546}
   - component: {fileID: 161881545}
   - component: {fileID: 161881547}
+  - component: {fileID: 161881548}
   m_Layer: 0
   m_Name: peca (22)
   m_TagString: Puzzle
@@ -944,6 +987,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &161881548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161881541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &184171015
 GameObject:
   m_ObjectHideFlags: 0
@@ -1118,6 +1174,7 @@ GameObject:
   - component: {fileID: 359984181}
   - component: {fileID: 359984180}
   - component: {fileID: 359984182}
+  - component: {fileID: 359984183}
   m_Layer: 0
   m_Name: peca (27)
   m_TagString: Puzzle
@@ -1290,6 +1347,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &359984183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359984176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &401560952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1384,6 +1454,7 @@ GameObject:
   - component: {fileID: 406792825}
   - component: {fileID: 406792824}
   - component: {fileID: 406792826}
+  - component: {fileID: 406792827}
   m_Layer: 0
   m_Name: peca (20)
   m_TagString: Puzzle
@@ -1556,6 +1627,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &406792827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406792820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &411852878
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1734,7 @@ GameObject:
   - component: {fileID: 429311164}
   - component: {fileID: 429311163}
   - component: {fileID: 429311165}
+  - component: {fileID: 429311166}
   m_Layer: 0
   m_Name: peca (32)
   m_TagString: Puzzle
@@ -1822,6 +1907,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &429311166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429311159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &445609443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1836,6 +1934,7 @@ GameObject:
   - component: {fileID: 445609448}
   - component: {fileID: 445609447}
   - component: {fileID: 445609449}
+  - component: {fileID: 445609450}
   m_Layer: 0
   m_Name: peca (13)
   m_TagString: Puzzle
@@ -2008,6 +2107,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &445609450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445609443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &446250182
 GameObject:
   m_ObjectHideFlags: 0
@@ -2022,6 +2134,7 @@ GameObject:
   - component: {fileID: 446250187}
   - component: {fileID: 446250186}
   - component: {fileID: 446250188}
+  - component: {fileID: 446250189}
   m_Layer: 0
   m_Name: peca (8)
   m_TagString: Puzzle
@@ -2194,6 +2307,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &446250189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446250182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &451392497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,6 +2414,7 @@ GameObject:
   - component: {fileID: 458336031}
   - component: {fileID: 458336030}
   - component: {fileID: 458336032}
+  - component: {fileID: 458336033}
   m_Layer: 0
   m_Name: peca (3)
   m_TagString: Puzzle
@@ -2460,6 +2587,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &458336033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458336026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &463635849
 GameObject:
   m_ObjectHideFlags: 0
@@ -2554,6 +2694,7 @@ GameObject:
   - component: {fileID: 492129751}
   - component: {fileID: 492129750}
   - component: {fileID: 492129752}
+  - component: {fileID: 492129753}
   m_Layer: 0
   m_Name: peca (7)
   m_TagString: Puzzle
@@ -2726,6 +2867,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &492129753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492129746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &496432116
 GameObject:
   m_ObjectHideFlags: 0
@@ -2886,6 +3040,7 @@ GameObject:
   - component: {fileID: 524979377}
   - component: {fileID: 524979376}
   - component: {fileID: 524979378}
+  - component: {fileID: 524979379}
   m_Layer: 0
   m_Name: peca (25)
   m_TagString: Puzzle
@@ -3058,6 +3213,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &524979379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524979372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &558526657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3072,6 +3240,7 @@ GameObject:
   - component: {fileID: 558526662}
   - component: {fileID: 558526661}
   - component: {fileID: 558526663}
+  - component: {fileID: 558526664}
   m_Layer: 0
   m_Name: peca (11)
   m_TagString: Puzzle
@@ -3244,6 +3413,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &558526664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558526657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &578892139
 GameObject:
   m_ObjectHideFlags: 0
@@ -3258,6 +3440,7 @@ GameObject:
   - component: {fileID: 578892144}
   - component: {fileID: 578892143}
   - component: {fileID: 578892145}
+  - component: {fileID: 578892146}
   m_Layer: 0
   m_Name: peca (33)
   m_TagString: Puzzle
@@ -3430,6 +3613,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &578892146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578892139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &585673111
 GameObject:
   m_ObjectHideFlags: 0
@@ -3444,6 +3640,7 @@ GameObject:
   - component: {fileID: 585673116}
   - component: {fileID: 585673115}
   - component: {fileID: 585673117}
+  - component: {fileID: 585673118}
   m_Layer: 0
   m_Name: peca (9)
   m_TagString: Puzzle
@@ -3616,6 +3813,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &585673118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 585673111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &597108734
 GameObject:
   m_ObjectHideFlags: 0
@@ -4190,6 +4400,7 @@ GameObject:
   - component: {fileID: 854180331}
   - component: {fileID: 854180330}
   - component: {fileID: 854180332}
+  - component: {fileID: 854180333}
   m_Layer: 0
   m_Name: peca (16)
   m_TagString: Puzzle
@@ -4362,6 +4573,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &854180333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854180326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &890136842
 GameObject:
   m_ObjectHideFlags: 0
@@ -4536,6 +4760,7 @@ GameObject:
   - component: {fileID: 915050624}
   - component: {fileID: 915050623}
   - component: {fileID: 915050625}
+  - component: {fileID: 915050626}
   m_Layer: 0
   m_Name: peca (12)
   m_TagString: Puzzle
@@ -4708,6 +4933,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &915050626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915050619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &970227348
 GameObject:
   m_ObjectHideFlags: 0
@@ -4802,6 +5040,7 @@ GameObject:
   - component: {fileID: 1020691043}
   - component: {fileID: 1020691042}
   - component: {fileID: 1020691044}
+  - component: {fileID: 1020691045}
   m_Layer: 0
   m_Name: peca (17)
   m_TagString: Puzzle
@@ -4974,6 +5213,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1020691045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020691038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1044383299
 GameObject:
   m_ObjectHideFlags: 0
@@ -5018,6 +5270,7 @@ GameObject:
   - component: {fileID: 1087395302}
   - component: {fileID: 1087395301}
   - component: {fileID: 1087395303}
+  - component: {fileID: 1087395304}
   m_Layer: 0
   m_Name: peca (34)
   m_TagString: Puzzle
@@ -5190,6 +5443,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1087395304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087395297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1089063289
 GameObject:
   m_ObjectHideFlags: 0
@@ -5204,6 +5470,7 @@ GameObject:
   - component: {fileID: 1089063294}
   - component: {fileID: 1089063293}
   - component: {fileID: 1089063295}
+  - component: {fileID: 1089063296}
   m_Layer: 0
   m_Name: peca (29)
   m_TagString: Puzzle
@@ -5376,6 +5643,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1089063296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089063289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1098451270
 GameObject:
   m_ObjectHideFlags: 0
@@ -5679,6 +5959,7 @@ GameObject:
   - component: {fileID: 1231976967}
   - component: {fileID: 1231976966}
   - component: {fileID: 1231976968}
+  - component: {fileID: 1231976969}
   m_Layer: 0
   m_Name: peca (10)
   m_TagString: Puzzle
@@ -5851,6 +6132,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1231976969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231976962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1263046822
 GameObject:
   m_ObjectHideFlags: 0
@@ -5865,6 +6159,7 @@ GameObject:
   - component: {fileID: 1263046827}
   - component: {fileID: 1263046826}
   - component: {fileID: 1263046828}
+  - component: {fileID: 1263046829}
   m_Layer: 0
   m_Name: peca (31)
   m_TagString: Puzzle
@@ -6037,6 +6332,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1263046829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263046822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1274145820
 GameObject:
   m_ObjectHideFlags: 0
@@ -6051,6 +6359,7 @@ GameObject:
   - component: {fileID: 1274145825}
   - component: {fileID: 1274145824}
   - component: {fileID: 1274145826}
+  - component: {fileID: 1274145827}
   m_Layer: 0
   m_Name: peca (4)
   m_TagString: Puzzle
@@ -6223,6 +6532,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1274145827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274145820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1301453777
 GameObject:
   m_ObjectHideFlags: 0
@@ -6504,6 +6826,7 @@ GameObject:
   - component: {fileID: 1474946891}
   - component: {fileID: 1474946890}
   - component: {fileID: 1474946892}
+  - component: {fileID: 1474946893}
   m_Layer: 0
   m_Name: peca (23)
   m_TagString: Puzzle
@@ -6676,6 +6999,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1474946893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474946886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1476367587
 GameObject:
   m_ObjectHideFlags: 0
@@ -6690,6 +7026,7 @@ GameObject:
   - component: {fileID: 1476367592}
   - component: {fileID: 1476367591}
   - component: {fileID: 1476367593}
+  - component: {fileID: 1476367594}
   m_Layer: 0
   m_Name: peca (2)
   m_TagString: Puzzle
@@ -6862,6 +7199,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1476367594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476367587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1483528105
 GameObject:
   m_ObjectHideFlags: 0
@@ -6876,6 +7226,7 @@ GameObject:
   - component: {fileID: 1483528110}
   - component: {fileID: 1483528109}
   - component: {fileID: 1483528111}
+  - component: {fileID: 1483528112}
   m_Layer: 0
   m_Name: peca (19)
   m_TagString: Puzzle
@@ -7048,6 +7399,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1483528112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1483528105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1527050526
 GameObject:
   m_ObjectHideFlags: 0
@@ -7162,7 +7526,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 8, y: 2.500001}
+  m_AnchoredPosition: {x: 8, y: 2.5}
   m_SizeDelta: {x: -4, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1546793841
@@ -7299,6 +7663,7 @@ GameObject:
   - component: {fileID: 1587567371}
   - component: {fileID: 1587567370}
   - component: {fileID: 1587567372}
+  - component: {fileID: 1587567373}
   m_Layer: 0
   m_Name: peca (24)
   m_TagString: Puzzle
@@ -7471,6 +7836,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1587567373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587567366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1611661830
 GameObject:
   m_ObjectHideFlags: 0
@@ -7485,6 +7863,7 @@ GameObject:
   - component: {fileID: 1611661835}
   - component: {fileID: 1611661834}
   - component: {fileID: 1611661836}
+  - component: {fileID: 1611661837}
   m_Layer: 0
   m_Name: peca (30)
   m_TagString: Puzzle
@@ -7657,6 +8036,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1611661837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611661830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1649227504
 GameObject:
   m_ObjectHideFlags: 0
@@ -7751,6 +8143,7 @@ GameObject:
   - component: {fileID: 1688811881}
   - component: {fileID: 1688811880}
   - component: {fileID: 1688811882}
+  - component: {fileID: 1688811883}
   m_Layer: 0
   m_Name: peca (21)
   m_TagString: Puzzle
@@ -7923,6 +8316,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1688811883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688811876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1689114249
 GameObject:
   m_ObjectHideFlags: 0
@@ -8460,6 +8866,7 @@ GameObject:
   - component: {fileID: 1784795958}
   - component: {fileID: 1784795957}
   - component: {fileID: 1784795959}
+  - component: {fileID: 1784795960}
   m_Layer: 0
   m_Name: peca (18)
   m_TagString: Puzzle
@@ -8632,6 +9039,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1784795960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784795953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1801077881
 GameObject:
   m_ObjectHideFlags: 0
@@ -8646,6 +9066,7 @@ GameObject:
   - component: {fileID: 1801077886}
   - component: {fileID: 1801077885}
   - component: {fileID: 1801077887}
+  - component: {fileID: 1801077888}
   m_Layer: 0
   m_Name: peca (1)
   m_TagString: Puzzle
@@ -8818,6 +9239,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1801077888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801077881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1838306340
 GameObject:
   m_ObjectHideFlags: 0
@@ -8992,6 +9426,7 @@ GameObject:
   - component: {fileID: 1894210513}
   - component: {fileID: 1894210512}
   - component: {fileID: 1894210514}
+  - component: {fileID: 1894210515}
   m_Layer: 0
   m_Name: peca (35)
   m_TagString: Puzzle
@@ -9164,6 +9599,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1894210515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894210508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1955431355
 GameObject:
   m_ObjectHideFlags: 0
@@ -9178,6 +9626,7 @@ GameObject:
   - component: {fileID: 1955431360}
   - component: {fileID: 1955431359}
   - component: {fileID: 1955431361}
+  - component: {fileID: 1955431362}
   m_Layer: 0
   m_Name: peca (26)
   m_TagString: Puzzle
@@ -9350,6 +9799,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1955431362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955431355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &1974778710
 GameObject:
   m_ObjectHideFlags: 0
@@ -9528,6 +9990,7 @@ GameObject:
   - component: {fileID: 1982956232}
   - component: {fileID: 1982956231}
   - component: {fileID: 1982956233}
+  - component: {fileID: 1982956234}
   m_Layer: 0
   m_Name: peca (15)
   m_TagString: Puzzle
@@ -9700,6 +10163,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &1982956234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982956227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &2002896215
 GameObject:
   m_ObjectHideFlags: 0
@@ -9714,6 +10190,7 @@ GameObject:
   - component: {fileID: 2002896220}
   - component: {fileID: 2002896219}
   - component: {fileID: 2002896221}
+  - component: {fileID: 2002896222}
   m_Layer: 0
   m_Name: peca (14)
   m_TagString: Puzzle
@@ -9886,6 +10363,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &2002896222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002896215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &2004549877
 GameObject:
   m_ObjectHideFlags: 0
@@ -10237,6 +10727,7 @@ GameObject:
   - component: {fileID: 2065812922}
   - component: {fileID: 2065812921}
   - component: {fileID: 2065812923}
+  - component: {fileID: 2065812924}
   m_Layer: 0
   m_Name: peca (5)
   m_TagString: Puzzle
@@ -10409,6 +10900,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EstaNaPosicaoCerta: 0
   Selecionada: 0
+--- !u!114 &2065812924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065812917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5065fb3ca902714ab6547ceab7d7d8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MainCamera: {fileID: 2004549879}
 --- !u!1 &2102785946
 GameObject:
   m_ObjectHideFlags: 0
