@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ArrastarESoltar
     - LevelManager
+    - LimiteTela
     - ScriptPecas
     - botaoContinuar
     Unity.2D.Tilemap.Editor.dll:
@@ -47,15 +48,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9862}
     - Class: 114
-      Script: {instanceID: 10262}
+      Script: {instanceID: 10264}
     - Class: 114
-      Script: {instanceID: 10628}
+      Script: {instanceID: 10630}
     - Class: 114
-      Script: {instanceID: 11102}
+      Script: {instanceID: 11106}
     - Class: 114
-      Script: {instanceID: 11216}
+      Script: {instanceID: 11220}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11478}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -94,15 +95,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9862}
     - Class: 114
-      Script: {instanceID: 10262}
+      Script: {instanceID: 10264}
     - Class: 114
-      Script: {instanceID: 10628}
+      Script: {instanceID: 10630}
     - Class: 114
-      Script: {instanceID: 11102}
+      Script: {instanceID: 11106}
     - Class: 114
-      Script: {instanceID: 11216}
+      Script: {instanceID: 11220}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11478}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -137,18 +138,63 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9660}
     - Class: 114
-      Script: {instanceID: 10262}
+      Script: {instanceID: 9822}
     - Class: 114
-      Script: {instanceID: 11102}
+      Script: {instanceID: 9862}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 10264}
+    - Class: 114
+      Script: {instanceID: 10630}
+    - Class: 114
+      Script: {instanceID: 11106}
+    - Class: 114
+      Script: {instanceID: 11220}
+    - Class: 114
+      Script: {instanceID: 11478}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/dialogo_4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9660}
+    - Class: 114
+      Script: {instanceID: 9862}
+    - Class: 114
+      Script: {instanceID: 10264}
+    - Class: 114
+      Script: {instanceID: 11106}
+    - Class: 114
+      Script: {instanceID: 11478}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
@@ -182,19 +228,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10004}
     - Class: 114
-      Script: {instanceID: 10262}
+      Script: {instanceID: 10128}
     - Class: 114
-      Script: {instanceID: 10628}
+      Script: {instanceID: 10264}
     - Class: 114
-      Script: {instanceID: 10698}
+      Script: {instanceID: 10630}
     - Class: 114
-      Script: {instanceID: 11102}
+      Script: {instanceID: 10700}
     - Class: 114
-      Script: {instanceID: 11216}
+      Script: {instanceID: 10896}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11106}
     - Class: 114
-      Script: {instanceID: 26982}
+      Script: {instanceID: 11220}
+    - Class: 114
+      Script: {instanceID: 11478}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -239,15 +287,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9862}
     - Class: 114
-      Script: {instanceID: 10262}
+      Script: {instanceID: 10264}
     - Class: 114
-      Script: {instanceID: 10628}
+      Script: {instanceID: 10630}
     - Class: 114
-      Script: {instanceID: 11102}
+      Script: {instanceID: 11106}
     - Class: 114
-      Script: {instanceID: 11216}
+      Script: {instanceID: 11220}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11478}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -286,15 +334,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9862}
     - Class: 114
-      Script: {instanceID: 10262}
+      Script: {instanceID: 10264}
     - Class: 114
-      Script: {instanceID: 10628}
+      Script: {instanceID: 10630}
     - Class: 114
-      Script: {instanceID: 11102}
+      Script: {instanceID: 11106}
     - Class: 114
-      Script: {instanceID: 11216}
+      Script: {instanceID: 11220}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11478}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -456,6 +504,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: a2d4f8a2ac979089923687e6f4ed4b7c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LimiteTela
+  - hash:
+      serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -606,6 +660,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: a3f459660ec76f747794d62b7d072134
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: botaoContinuar
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -744,10 +804,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: a3f459660ec76f747794d62b7d072134
+      Hash: a2d4f8a2ac979089923687e6f4ed4b7c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: botaoContinuar
+    className: teste
   platform: 13
   scenePathNames:
   - Assets/Scenes/tela_menu.unity
@@ -756,4 +816,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/dialogo_2.unity
   - Assets/Scenes/puzzle1.unity
   - Assets/Scenes/dialogo_3.unity
-  playerPath: C:/Users/jcs19/Documents/#01_PastaProvisoria/ProjetoMemorias/JogoMemorias_v02_01-alpha.apk
+  - Assets/Scenes/dialogo_4.unity
+  playerPath: C:/Users/jcs19/Documents/GitHub/desenvolvimento_do_game/ProjetoMemorias/JogoMemorias_v02-alpha.apk
