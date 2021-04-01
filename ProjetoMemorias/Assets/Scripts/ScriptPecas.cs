@@ -15,6 +15,7 @@ public class ScriptPecas : MonoBehaviour{
     void Start(){ //Esse procedimento "Start" será executado 1x quando o Script for chamado
         PosicaoCerta = transform.position; //Vai alterar a posição das peças de acordo com as coordenadas dadas
         transform.position = new Vector3(Random.Range(1300f,2200f), Random.Range(200, 1250)); //Aqui a posição "transform.position" receberá o "Vector3" com coordenadas aleatórias dentro do espaço dado, sendo o primeiro "Random.Range" referente ao eixo X e o segundo "Random.Range" referente ao eixo Y
+        contadorPecasCorretas = 0;
     }
 
     void Update(){
@@ -25,7 +26,6 @@ public class ScriptPecas : MonoBehaviour{
                     EstaNaPosicaoCerta = true; //E armazenará na variável "EstaNaPosicaoCerta" o "TRUE"
                     contadorPecasCorretas = contadorPecasCorretas + 1; //A cada peça colocada no lugar correto, o contador será incrementado em 1.
                     GetComponent<SortingGroup>().sortingOrder = 0; //E alterará seu "layer" (sua profundidade na tela) para 0, isto é, a posição normal.
-                    Debug.Log(contadorPecasCorretas);
                 }
             }
         }
