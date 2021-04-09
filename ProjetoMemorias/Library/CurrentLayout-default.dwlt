@@ -301,9 +301,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e2300000
+      m_SelectedIDs: ee300000
       m_LastClickedID: 0
-      m_ExpandedIDs: 48f8ffff72f8ffff9cf8ffffc6f8fffff0f8ffff1af9ffff44f9ffff6ef9ffff98f9ffffc2f9ffffecf9ffff16faffff40faffff6afaffff94faffffbefaffffe8faffff74fbffff
+      m_ExpandedIDs: 32f7ffff5cf7ffff86f7ffffb0f7ffffdaf7ffff04f8ffff2ef8ffff58f8ffff82f8ffffacf8ffffd6f8ffff00f9ffff2af9ffff54f9ffff74fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -402,19 +402,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Images
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Images
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\m4dud\Desktop\desenvolvimento_do_game\ProjetoMemorias
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 46310000
-    m_LastClickedID: 12614
+    m_SelectedIDs: 102f0000
+    m_LastClickedID: 12048
     m_ExpandedIDs: 00000000302d0000102f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -470,7 +470,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -495,7 +495,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 275}
+    m_ScrollPosition: {x: 0, y: 926}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 112
@@ -616,9 +616,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.63372564, y: 0.27684462, z: 65.81511}
+    m_Target: {x: -0.99221075, y: -0.20590204, z: -11.075414}
     speed: 2
-    m_Value: {x: -0.63372564, y: 0.27684462, z: 65.81511}
+    m_Value: {x: -0.65642536, y: -0.30347496, z: -11.019172}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -651,9 +651,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 16.429913
+    m_Target: 13.053805
     speed: 2
-    m_Value: 16.429913
+    m_Value: 12.49168
   m_Ortho:
     m_Target: 1
     speed: 2
