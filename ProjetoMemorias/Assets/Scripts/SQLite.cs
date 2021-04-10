@@ -5,8 +5,8 @@ using System.IO;
 
 public class SQLite : MonoBehaviour{
     //Esse script é responsável por realizar a conexão entre o banco de dados e o jogo!
-    public static int i = 1;
-    public static int j = 1;
+    public static int id_do_save = 1;
+    
     // Start is called before the first frame update
     void Start(){
         //CRIANDO A CONEXÃO COM O BANCO DE DADOS
@@ -23,26 +23,6 @@ public class SQLite : MonoBehaviour{
         dbcmd.CommandText = criar_tabela; //Executando o comando da última linha
         leitor = dbcmd.ExecuteReader();
 
-        //Passando um valor "TESTE"
-        IDbCommand cmnd = dbcon.CreateCommand();
-        cmnd.CommandText = "INSERT INTO ultimo_save (id, tela_salva) VALUES ("+i+", "+j+")";
-        cmnd.ExecuteNonQuery();       
-
-        //Fechando a conexão
-        IDbCommand cmnd_read = dbcon.CreateCommand();
-        IDataReader reader;
-
-        string query = "SELECT * FROM ultimo_save";
-        cmnd_read.CommandText = query;
-        reader = cmnd_read.ExecuteReader();
-
-        while(reader.Read()){
-            Debug.Log("id: " + reader[0].ToString());
-            Debug.Log("última tela salva: " + reader[1].ToString());
-        }
-        i++;
-        j++;
-        dbcon.Close();
     }
 
     // Update is called once per frame
