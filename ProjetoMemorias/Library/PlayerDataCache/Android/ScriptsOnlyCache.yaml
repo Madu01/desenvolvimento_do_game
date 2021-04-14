@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - ScriptPecas
     - botaoContinuar
     - botaoSalvar
+    - nome_link
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -483,6 +484,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11242}
     - Class: 114
       Script: {instanceID: 11500}
+    - Class: 114
+      Script: {instanceID: 14188}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1005,6 +1008,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: nome_link
   platform: 13
   scenePathNames:
   - Assets/Scenes/tela_menu.unity
@@ -1017,4 +1026,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/dialogo_4.unity
   - Assets/Scenes/puzzle3.unity
   - Assets/Scenes/dialogo_5.unity
-  playerPath: C:/Users/jcs19/Documents/#01_PastaProvisoria/ProjetoMemorias/JogoMemorias_v01-beta.apk
+  playerPath: C:/Users/oseia/Desktop/testandolink.apk
