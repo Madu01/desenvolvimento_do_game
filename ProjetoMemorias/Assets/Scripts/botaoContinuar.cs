@@ -10,18 +10,18 @@ public class botaoContinuar : MonoBehaviour{
 
     // Start is called before the first frame update
     void Start(){
-        btnContinuar.SetActive(false);
+        btnContinuar.SetActive(false); //Desativando o botão "Continuar"
         botaoAparece = false;
     }
 
     // Update is called once per frame
     void Update(){
-        if(contador != ScriptPecas.contadorPecasCorretas){
-            contador = ScriptPecas.contadorPecasCorretas;
+        if(contador != ScriptPecas.contadorPecasCorretas){ 
+            contador = ScriptPecas.contadorPecasCorretas; //Recebendo o número de peças que já foram colocadas no lugar correto
             Debug.Log("Aqui chegou "+contador);
         }
-        if(contador == 36 && botaoAparece == false){
-            btnContinuar.SetActive(true);
+        if(contador == 36 && botaoAparece == false){ //Se todas as peças estiverem no lugar correto...
+            btnContinuar.SetActive(true); //O botão será ativado!
             botaoAparece = true;
         }
     }

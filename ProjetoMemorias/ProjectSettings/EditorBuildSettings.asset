@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/dialogo_5.unity
     guid: 731d79ba35208c0469d53b1512321c5e
+  - enabled: 1
+    path: Assets/Scenes/tela_configuracoes.unity
+    guid: cbb1fd8cf714fd044a397c7b6f15bf41
   m_configObjects: {}

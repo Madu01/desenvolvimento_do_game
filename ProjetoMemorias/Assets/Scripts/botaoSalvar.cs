@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using System.Data;
 using Mono.Data.Sqlite;
 using System.IO;
+using System.Linq;
 
 public class botaoSalvar : MonoBehaviour{
     //Função responsável por salvar o jogo!
