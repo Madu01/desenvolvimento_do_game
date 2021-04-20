@@ -36,14 +36,20 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/dialogo_5.unity
-    guid: 731d79ba35208c0469d53b1512321c5e
-  - enabled: 1
-    path: Assets/Scenes/dialogo_6(final).unity
-    guid: 15bafe491a366d24d96ee2aece890fe3
+    path: Assets/Scenes/dialogo_5(final).unity
+    guid: 3f5dadb2fc59ba948807b610ff211177
   - enabled: 1
     path: Assets/Scenes/dialogo_7(final).unity
+    guid: 731d79ba35208c0469d53b1512321c5e
+  - enabled: 1
+    path: Assets/Scenes/dialogo_8(final).unity
+    guid: 15bafe491a366d24d96ee2aece890fe3
+  - enabled: 1
+    path: Assets/Scenes/dialogo_9(final).unity
     guid: dcd9e1bed65cc944eb2d93cad3019d73
+  - enabled: 1
+    path: Assets/Scenes/dialogo_6(final).unity
+    guid: 3995c413686dd3841b8a4a8191066d22
   - enabled: 1
     path: Assets/Scenes/tela_configuracoes.unity
     guid: cbb1fd8cf714fd044a397c7b6f15bf41
