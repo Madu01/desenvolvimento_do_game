@@ -30,6 +30,12 @@ EditorBuildSettings:
     path: Assets/Scenes/puzzle3.unity
     guid: 23d2cb38ba60a0c49b1ea814d0bfc762
   - enabled: 1
+    path: Assets/Scenes/dialogo_10_narrador(final).unity
+    guid: 41104410a2cc1f549b2828bf9b6c3edf
+  - enabled: 1
+    path: Assets/Scenes/dialogo_11_creditosFinais.unity
+    guid: 10f835dafb4949d43903a6fd6abf8bf6
+  - enabled: 1
     path: Assets/Scenes/dialogo_4.unity
     guid: 45411b313b4431845b1af90f8ec2161f
   - enabled: 0
