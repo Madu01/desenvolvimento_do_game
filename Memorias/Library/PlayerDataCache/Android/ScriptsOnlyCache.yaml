@@ -18,6 +18,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -1370,4 +1371,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/dialogo_9(final).unity
   - Assets/Scenes/dialogo_6(final).unity
   - Assets/Scenes/tela_configuracoes.unity
-  playerPath: C:/Users/jcs19/Documents/#01_PastaProvisoria/Memorias/Memorias_v05-beta.apk
+  playerPath: C:/Users/m4dud/Downloads/memorias.apk

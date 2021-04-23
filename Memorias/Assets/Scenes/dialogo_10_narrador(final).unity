@@ -152,9 +152,9 @@ RectTransform:
   m_Father: {fileID: 2042212685}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 145.54999, y: -75.94501}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -254.45001, y: 119.05499}
   m_SizeDelta: {x: 102, y: 33.700012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &39116217
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 821984825}
   - component: {fileID: 821984824}
   m_Layer: 5
-  m_Name: Text_Da_Conversa2
+  m_Name: Text_Da_Conversa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -577,7 +577,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -43.949936, y: 38.849976}
+  m_AnchoredPosition: {x: -43.94995, y: 38.849976}
   m_SizeDelta: {x: 87.899994, y: 77.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1717038769

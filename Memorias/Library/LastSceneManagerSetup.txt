@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/dialogo_5(final).unity
+- path: Assets/Scenes/tela_menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
