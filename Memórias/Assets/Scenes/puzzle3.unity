@@ -635,7 +635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -43.37, y: -35.8}
+  m_AnchoredPosition: {x: -43.370117, y: -35.799927}
   m_SizeDelta: {x: 41.2, y: 40.93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &125934436
@@ -5874,7 +5874,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: dialogo_5
+          m_StringArgument: dialogo_5(final)
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1098451273
