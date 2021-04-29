@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/tela_configuracoes.unity
     guid: cbb1fd8cf714fd044a397c7b6f15bf41
+  - enabled: 1
+    path: Assets/Scenes/tela_creditos_musicas.unity
+    guid: 55f8c142df9fe5c48a5ad7a204d89a71
   m_configObjects: {}
