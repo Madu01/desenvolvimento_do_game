@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Puzzle
   - btnPuzzleContinuar
+  - Musica
   layers:
   - Default
   - TransparentFX
