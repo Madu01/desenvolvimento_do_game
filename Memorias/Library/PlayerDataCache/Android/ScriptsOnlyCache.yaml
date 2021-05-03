@@ -19,6 +19,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -1401,12 +1402,6 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: a2d4f8a2ac979089923687e6f4ed4b7c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: teste
-  - hash:
-      serializedVersion: 2
       Hash: 7072231382eb3c4871b3dd75ad0227e1
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1443,4 +1438,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/dialogo_6(final).unity
   - Assets/Scenes/tela_configuracoes.unity
   - Assets/Scenes/tela_creditos_musicas.unity
-  playerPath: C:/Users/jcs19/Documents/#01_PastaProvisoria/Memorias/Memorias_v08-beta.apk
+  playerPath: C:/Users/jcs19/Documents/GitHub/desenvolvimento_do_game/Memorias/Memorias_v1.apk
